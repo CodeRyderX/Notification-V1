@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Plus;
+    src: url(../../fonts/Plus/PlusJakartaSans-VariableFont_wght.ttf);
+}
+body {
+    background-color: aliceblue;
+}
+.container {
+    background-color: white;
+    width: 35rem;
+    height: 40rem;
+    margin-top: 3rem;
+    margin-inline: auto;
+}
+.head {
+    width: 12rem;
+    height: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header {
+    font-family: Oswald;
+    display: inline;
+    margin-top: 0;
+    margin-left: -0.5rem;
+}
+.number {
+    background-color: rgb(33, 66, 141);
+    width: 1.5rem;
+    height: 1.2rem;
+    border-radius: 0.25rem;
+    color: white;
+    margin-left: 0.5rem;
+    margin-top: 0.65rem;
+    align-items: center;
+}
+.digit {
+    margin-left: 0.5rem;
+    font-family: Plus;
+    font-size: 0.75rem;
+}
+.mark_all {
+    color: black;
+    font-family: Plus;
+    font-size: 0.75rem;
+    display: inline;
+    float: right;
+    margin-top: -1.25rem;
+    margin-right: 1.95rem;
+}
+.mark_all:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+.unread {
+    background-color: aliceblue;
+    width: 90%;
+    height: 4rem;
+    border-radius: 0.45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 1rem;
+}
+.img1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.65rem;
+}
+.write {
+    width: 25rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-inline: auto;
+}
+.word {
+    font-family: Plus;
+    color: grey;
+    font-size: 0.75rem;
+}
+.weber{
+    color: black;
+}
+.mark {
+    background-color: rgba(255, 0, 0, 0.678);
+    width: 0.32rem;
+    height: 0.35rem;
+    float: right;
+    margin-top: -2.25rem;
+    border-radius: 1rem;
+    margin-right: -0.25rem;
+}
+.img2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.65rem;
+}
+.img3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.65rem;
+}
+.chess {
+    color: blue;
+}
+.read {
+    width: 90%;
+    height: 9rem;
+    border-radius: 0.45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 0.35rem;
+}
+.img4 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.65rem;
+}
+.write1 {
+    width: 25rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-inline: auto;
+}
+.private {
+    width: 25rem;
+    height: 4rem;
+    background-color: #fff;
+    border: 1px solid rgb(201, 201, 201);
+    float: right;
+    margin-top: -4.75rem;
+    margin-right: 3rem;
+    color: rgb(172, 172, 172);
+    border-radius: 0.5rem;
+}
+.message {
+    font-size: 0.75rem;
+    font-family: Plus;
+    margin-inline: auto;
+    margin-right: 0.5rem;
+}
+.read2 {
+    width: 90%;
+    height: 4rem;
+    border-radius: 0.45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 0.35rem;
+}
+.img5 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.65rem;
+}
+.chessImg{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+    margin-top: 0.65rem;
+}
+.write2 {
+    width: 20rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-inline: auto;
+}
+.read3 {
+    width: 90%;
+    height: 4rem;
+    border-radius: 0.45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+.img6 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.65rem;
+}
+.unwrite {
+    width: 26.26rem;
+    height: 2.5rem;
+    margin-top: 0rem;
+    margin-left: 1rem;
+}
+.read4 {
+    width: 90%;
+    height: 4rem;
+    border-radius: 0.45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 0.35rem;
+}
+.img7 {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 0.65rem;
+}
+.write2 {
+    width: 20rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.hide {
+    display: none !important;
+}
+
+
+
+.transparent{
+    background-color: transparent !important;
+}
